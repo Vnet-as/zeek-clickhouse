@@ -1,0 +1,12 @@
+## ClickHouse input reader - built-in function declarations.
+##
+## The reader itself is registered as an Input::Component in Plugin.cc via
+## AddComponent(), which is the correct mechanism for input readers and does
+## not require any BIF declarations.
+##
+## Add C++-backed built-in functions here if needed in the future, e.g.:
+##
+##   function ClickHouse::some_builtin%(arg: string%): bool;
+##
+
+module ClickHouse;

@@ -1,0 +1,94 @@
+# Build directories
+build/
+cmake-build-*/
+.cmake/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Generated BIF files
+*.bif.cc
+*.bif.h
+*.bif.init.cc
+
+# Zeek plugin build artifacts
+__bro_plugin__
+__zeek_plugin__
+*.hlto
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Distribution directories
+dist/
+*.tar.gz
+*.zip
+
+# Generated documentation
+doc/html/
+doc/latex/
+*.dox
+
+# Test artifacts
+Testing/
+test_results/
+*.log
+
+# Package files
+*.deb
+*.rpm
+
+# Backup files
+*.bak
+*.backup
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Environment
+.env
+.venv
+env/
+venv/
